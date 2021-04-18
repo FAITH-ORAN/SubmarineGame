@@ -65,7 +65,7 @@ function counter(y, c) {
 		res = "Le sous-marin U-36 a réussi! Vous avez subi 10 dégâts";
 		yourHealth -= 10;
 	} else if (move >= 3 && y === 'counter') {
-		res = 'Votre defense à réussi! le sous-marin a subi 10 dégâts';
+		res = 'Votre defense à réussi! le sous-marin U-36 a subi 10 dégâts';
 		compHealth -= 10;
 	} else if (move < 3 && y === 'attack') {
 		res = "le U-36 à échoué! Vous avez infligé 15 dégâts!";
