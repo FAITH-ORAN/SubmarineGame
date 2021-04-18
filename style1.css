@@ -1,0 +1,73 @@
+
+body{
+    font-family: Orbitron, sans-serif;
+    height:200px;
+    color:green;
+    background-image:url(images/output.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+/*button {
+	position: relative;
+	background: green;
+	padding: 10px 25px;
+	margin-top: 300px;
+	margin-left: 50%;
+	display: block;
+	border-radius: 75%;
+}
+*/
+button {
+	margin-top: 100px;
+	margin-left: 5%;
+	display: block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
+
+
+#yourHealth, #compHealth {
+	position: relative;
+	height: 30px;
+	width: 250px;
+	margin-top: 20px;
+	
+	border-radius: 3px;
+	margin-right: 20px;
+	display: block;
+}
+
+#yourHealthBar, #compHealthBar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: green;
+}
+
+#announcements {
+	width: 30%;
+	background-color: rgba(0, 0, 0, 0.356);
+	border-radius:20px;
+}
+

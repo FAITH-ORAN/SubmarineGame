@@ -1,0 +1,42 @@
+body{
+    font-family: Orbitron, sans-serif;
+    height:auto;
+    color:green;
+    background-image:url(images/battle.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div{
+    margin-top:200px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+h1{
+    border-right:5px solid green ;
+    letter-spacing: 0.05;
+    animation: blink 0.75s step-end infinite;
+}
+a{
+    color:green;
+    text-decoration:none;
+    margin-left: 20px;
+    margin-top:50px;
+    font-size: 30px;
+    border:2px solid green;
+}
+a:hover{
+    color: green;
+    text-decoration: none;
+}
+@keyframes blink{
+from,
+to{
+    border-color:transparent;
+}
+ 50%{
+     border-color:green;
+ }
+}
